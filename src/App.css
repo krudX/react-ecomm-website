@@ -1,0 +1,47 @@
+:root {
+	--mainBlue: #2a2a72;
+	--lightBlue: #009ffd;
+	--mainWhite: #f3f3f3;
+	--mainDark: #252525;
+	--mainYellow: #ffa400;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif !important;
+	background-color: var(--mainWhite);
+}
+.text-title {
+	font-family: 'Oswald', sans-serif !important;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+}
+.text-blue {
+	color: var(--mainBlue);
+}
+.text-bright {
+	color: var(--lightBlue);
+}
+.page-not-found {
+	font-family: 'Nunito', sans-serif;
+}
+.btn-black {
+	background-color: transparent;
+	text-transform: capitalize;
+	font-size: 1rem !important;
+	color: var(--mainDark);
+	border-radius: 0 !important;
+	border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+	background-color: var(--mainDark) !important;
+	color: var(--mainWhite) !important;
+}
+.cart-item {
+	cursor: pointer;
+	font-size: 1.3rem;
+	color: var(--mainYellow) !important;
+}

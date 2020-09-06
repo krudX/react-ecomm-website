@@ -1,0 +1,14 @@
+nav {
+	font-size: 1.0rem;
+	text-transform: capitalize;
+}
+.navbar-brand {
+	height: 30px;
+	color: #fff;
+}
+.nav-link {
+	color: #fff !important;
+}
+.nav-link:hover {
+	color: rgba(255, 255, 255, 0.5) !important;
+}
